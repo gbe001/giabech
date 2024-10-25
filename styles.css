@@ -51,11 +51,7 @@ main {
     border-radius: 8px;
     background-color: #f9f9f9; /* Optional: light background for sections */
     text-align: justify;
-}
-.section img {
-    max-width: 100%;           /* Responsive image */
-    height: auto;              /* Maintains aspect ratio */
-    margin: auto;              /* Ensures image is centered */
+    align-items: center;
 }
 
 /* Optional styling for headings and paragraphs */
