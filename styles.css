@@ -39,7 +39,7 @@ main {
     display: flex;             /* Enables flex layout for sections */
     gap: 20px;                /* Adds space between the sections */
     justify-content: center;   /* Centers sections on the page */
-    max-width: 80%;           /* Limits container width */
+    max-width: 60%;           /* Limits container width */
     margin: auto;             /* Centers container in the viewport */
 }
 
@@ -51,6 +51,7 @@ main {
     border-radius: 8px;
     background-color: #f9f9f9; /* Optional: light background for sections */
     text-align: justify;
+    justify-content: center;
 }
 
 /* Optional styling for headings and paragraphs */
