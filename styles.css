@@ -68,6 +68,7 @@ main {
 
 .section p {
     color: #555;
+    text-align: justify;
 }
 
 /* Footer styling */
