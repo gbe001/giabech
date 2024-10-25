@@ -41,7 +41,7 @@ footer {
     width: 100%;
 }
 /* Center the container on the page */
-body {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
