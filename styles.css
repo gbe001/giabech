@@ -51,6 +51,7 @@ main {
     border-radius: 8px;
     background-color: #f9f9f9; /* Optional: light background for sections */
     text-align: justify;
+    justify-content: center;
     align-items: center;
 }
 
