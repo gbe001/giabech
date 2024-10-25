@@ -55,6 +55,11 @@ main {
     align-items: center;
     text-align: center;
 }
+.section img {
+            max-width: 100%;                 /* Responsive image */
+            height: auto;                    /* Maintains aspect ratio */
+}
+
 
 /* Optional styling for headings and paragraphs */
 .section h2 {
