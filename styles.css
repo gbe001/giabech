@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+/* Header styling */
 header {
     background-color: #333;
     color: white;
@@ -12,6 +13,7 @@ header {
     text-align: center;
 }
 
+/* Navigation styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -27,10 +29,39 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* Main styling */
 main {
     padding: 2em;
 }
 
+/* Center the container and set up the flex layout */
+.container {
+    display: flex;             /* Enables flex layout for sections */
+    gap: 20px;                /* Adds space between the sections */
+    justify-content: center;   /* Centers sections on the page */
+    max-width: 80%;           /* Limits container width */
+    margin: auto;             /* Centers container in the viewport */
+}
+
+/* Styling for each section */
+.section {
+    flex: 1;                  /* Allows sections to grow equally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Optional: light background for sections */
+}
+
+/* Optional styling for headings and paragraphs */
+.section h2 {
+    color: #333;
+}
+
+.section p {
+    color: #555;
+}
+
+/* Footer styling */
 footer {
     background-color: #333;
     color: white;
@@ -39,35 +70,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-/* Center the container on the page */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-.container {
-            display: flex;
-            grid-template-columns: 1fr 1fr; /* Creates two equal columns */
-            gap: 20px;                      /* Adds space between the sections */
-            justify-content: center;         /* Centers grid on the page */
-            max-width: 80%;                  /* Limits container width */
-            margin: auto;
-        }
-.section {
-    flex: 1;                 /* Allows sections to grow equally */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-}
-/* Optional styling for headings and paragraphs */
-section h2 {
-    color: #333;
-}
-
-section p {
-    color: #555;
 }
